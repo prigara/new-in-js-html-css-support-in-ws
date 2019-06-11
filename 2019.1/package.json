@@ -1,0 +1,13 @@
+{
+  "name": "2019.1",
+  "version": "1.0.0",
+  "dependencies": {
+//  Cmd/ctrl-hover on the version to see the range of version that can be installed
+    "react": "^16.8.6"
+  },
+  "scripts": {
+    "lint": "lint-stged",
+//  Now you can auto-complete the script or file name and jump to its definition
+    "precommit": "npm run lint"
+  }
+}

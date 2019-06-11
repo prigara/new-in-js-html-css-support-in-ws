@@ -1,7 +1,0 @@
-div {
-    /* Documentation for properties shows descriptions from MDN
-    and information about the supported browsers (if it's not supported in all of them by default)  -->
-  */
-    display: flex;
-    flex-direction: row-reverse;
-}

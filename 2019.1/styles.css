@@ -1,0 +1,15 @@
+div {
+    /* Documentation for properties shows descriptions from MDN
+    and information about the supported browsers (if it's not supported in all of them by default) */
+    display: flex;
+    /* The Browser compatibility inspection will warn you if a property
+    is not supported in the target browser */
+    flex-direction: row-reverse;
+}
+
+/* Extract CSS variable refactoring will create a new variable using
+the var(--var-name) syntax and replace the usages of the value with it. */
+.blue {
+    background-color: #43c3ff;
+    border-color: #43c3ff;
+}
